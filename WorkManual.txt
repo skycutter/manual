@@ -1,0 +1,566 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf390
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Monaco;\f2\fnil\fcharset0 LucidaGrande;
+\f3\fnil\fcharset0 Calibri;\f4\fnil\fcharset128 HiraKakuProN-W3;\f5\froman\fcharset0 Times-Roman;
+}
+{\colortbl;\red255\green255\blue255;\red255\green0\blue0;\red49\green49\blue49;\red246\green105\blue95;
+\red169\green169\blue169;\red63\green95\blue191;\red127\green159\blue191;\red127\green0\blue85;\red0\green0\blue192;
+\red253\green141\blue103;}
+\margl1440\margr1440\vieww19960\viewh13460\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\b\fs24 \cf0 How to view file git history in Eclipse?\
+
+\b0 right click -> compare with -> history\
+\
+\
+rc_line_item_dec_03_low.pdf      -> preview page\
+\
+UX specs RC-305\
+\
+intranet/display/pm/report+center+2.0+prd-phase+1\
+\
+{\field{\*\fldinst{HYPERLINK "http://sfbay.craigslist.org/sby/apa/4288949841.html"}}{\fldrslt http://sfbay.craigslist.org/sby/apa/4288949841.html}}\
+\
+sunnyvale\
+{\field{\*\fldinst{HYPERLINK "http://sfbay.craigslist.org/sby/apa/4301783902.html"}}{\fldrslt http://sfbay.craigslist.org/sby/apa/4301783902.html}}\
+{\field{\*\fldinst{HYPERLINK "http://sfbay.craigslist.org/sby/apa/4265472829.html"}}{\fldrslt http://sfbay.craigslist.org/sby/apa/4265472829.html}}\
+{\field{\*\fldinst{HYPERLINK "http://sfbay.craigslist.org/sby/apa/4300230052.html"}}{\fldrslt http://sfbay.craigslist.org/sby/apa/4300230052.html}}\
+\
+{\field{\*\fldinst{HYPERLINK "http://sfbay.craigslist.org/sby/apa/4265271297.html"}}{\fldrslt http://sfbay.craigslist.org/sby/apa/4265271297.html}}\
+\
+optPassword: 1989turn\
+\
+\
+\pard\pardeftab720
+
+\f1\fs22 \cf2 class com.turn.jaxrs.experiment.ExperimentController\cf0 \
+\cf2   class com.turn.jaxrs.lineitem.BidForecastController\cf0 \
+\cf2   class com.turn.jaxrs.report.GeoDistributionReportController\cf0 \
+\cf2   class com.turn.jaxrs.publisher.PublisherController\cf0 \
+\cf2   class com.turn.jaxrs.tap.AdvertiserDeliveryMediaController\cf0 \
+\cf2   class com.turn.jaxrs.io.IODirectBuyController\cf0 \
+\cf2   class com.turn.jaxrs.targeting.ContentCategoryController\cf0 \
+\cf2   class com.turn.jaxrs.PreferencesController\cf0 \
+\cf2   class com.turn.jaxrs.tap.TapPackageController\cf0 \
+\cf2   class com.turn.jaxrs.MarketFeatureController\cf0 \
+\cf2   class com.turn.jaxrs.tap.TapLineItemController\cf0 \
+\cf2   class com.turn.jaxrs.BulkEditJobApiController\cf0 \
+\cf2   class com.turn.jaxrs.report.ReportCenterMetricsController\cf0 \
+\cf2   class com.turn.jaxrs.lineitem.LineItemController\cf0 \
+\cf2   class com.turn.jaxrs.BreadCrumbController\cf0 \
+\cf2   class com.turn.jaxrs.io.IOSummaryLineItemsController\cf0 \
+\cf2   class com.turn.jaxrs.beacon.BeaconController\cf0 \
+\cf2   class com.turn.jaxrs.io.IOSummaryPackagesController\cf0 \
+\cf2   class com.turn.jaxrs.io.IOAdvertiserInfoController\cf0 \
+\cf2   class com.turn.jaxrs.marketsitelist.MarketSiteListController\cf0 \
+\cf2   class com.turn.jaxrs.tap.AdvSummaryOverviewController\cf0 \
+\cf2   class com.turn.jaxrs.targeting.LanguagesController\cf0 \
+\cf2   class com.turn.jaxrs.tap.TapInsertionOrderController\cf0 \
+\cf2   class com.turn.jaxrs.io.IODeliveryPerformanceController\cf0 \
+\cf2   class com.turn.jaxrs.user.UserController\cf0 \
+\cf2   class com.turn.jaxrs.io.IOReportsController\cf0 \
+\cf2   class com.turn.jaxrs.io.IOSummaryOverviewController\cf0 \
+\cf2   class com.turn.jaxrs.tap.SummaryPerformanceController\cf0 \
+\cf2   class com.turn.jaxrs.io.IOSummaryInsightsController\cf0 \
+\cf2   class com.turn.jaxrs.insights.InsightsAttributesController\cf0 \
+\cf2   class com.turn.jaxrs.io.IOMediaExchangeController\cf0 \
+\cf2   class com.turn.jaxrs.marketzipgroup.MarketZipGroupController\cf0 \
+\cf2   class com.turn.jaxrs.targeting.MobileTargetingController\cf0 \
+\cf2   class com.turn.jaxrs.TapAutoCompleteController\cf0 \
+\cf2   class com.turn.jaxrs.market.MarketController\cf0 \
+\cf2   class com.turn.jaxrs.tap.MediaProviderController\cf0 \
+\cf2   class com.turn.jaxrs.CustomColumnsController\cf0 \
+\cf2   class com.turn.jaxrs.io.IOSummaryAdsController\cf0 \
+\cf2   class com.turn.jaxrs.hasnote.HasNoteController\cf0 \
+\cf2   class com.turn.jaxrs.datacontract.DataContractController\cf0 \
+\cf2   class com.turn.jaxrs.tap.TapSummaryInsightsController\cf0 \
+\cf2   class com.turn.jaxrs.report.ReportController\cf0 \
+\cf2   class com.turn.jaxrs.io.IOSummaryExperimentsController\cf0 \
+\cf2   class com.turn.jaxrs.mediaData.ConceptController\cf0 \
+\cf2   class com.turn.jaxrs.advertiser.AdvertiserController\cf0 \
+\cf2   class com.turn.jaxrs.MiscDetailsController\cf0 \
+\cf2   class com.turn.jaxrs.io.IOCreativePerformanceController\cf0 \
+\cf2   class com.turn.jaxrs.CloudMetricsApiController\cf0 \
+\cf2   class com.turn.jaxrs.io.IOMediaSitesController\cf0 \
+\cf2   class com.turn.jaxrs.insights.InsightsReportsController\cf0 \
+\cf2   class com.turn.jaxrs.JaxRsController\cf0 \
+\cf2   class com.turn.jaxrs.CampaignRsController\cf0 \
+\cf2   class com.turn.jaxrs.packag.PackagController\cf0 \
+\cf2   class com.turn.jaxrs.io.IOCreativesDetailsController\cf0 \
+\cf2   class com.turn.jaxrs.io.IOSummaryPrioritiesController\cf0 \
+\cf2   class com.turn.jaxrs.tap.AdvMarketInfoController\cf0 \
+\cf2   class com.turn.jaxrs.tap.AdvertiserDatumController\cf0 \
+\cf2   class com.turn.jaxrs.ad.AdController\cf0 \
+\cf2   class com.turn.jaxrs.report.ObjectSelectorController\cf0 \
+\cf2   class com.turn.jaxrs.PermissionsController\cf0 \
+\cf2   class com.turn.jaxrs.userpermission.AccountShareAdvertiserController\cf0 \
+\cf2   class com.turn.jaxrs.permission.PermissionController\cf0 \
+\cf2   class com.turn.jaxrs.creative.CreativeController\cf0 \
+\cf2   class com.turn.jaxrs.targeting.GeoTargetingController\cf0 \
+\cf2   class com.turn.jaxrs.io.IOController\cf0 \
+\cf2   class com.turn.jaxrs.AdvertiserAutoCompleteController\cf0 \
+\cf2   class com.turn.jaxrs.report.ReportCenterPackagPerformanceController\cf0 \
+\cf2   class com.turn.jaxrs.io.DirectBuyController\cf0 \
+\cf2   class com.turn.jaxrs.io.IODeliveryOverviewController\cf0 \
+\cf2   class com.turn.jaxrs.tap.SegmentController\cf0 \
+\cf2   class com.turn.jaxrs.ListFilterAutoCompleteController\cf0 \
+\cf2   class com.turn.jaxrs.dataprovider.DataProviderController\cf0 \
+\cf2   class com.turn.jaxrs.taxonomy.TaxonomyController\
+\
+\
+\
+\cf0 \
+SEGMENT: http://jira.turn.com/browse/SUP-15527\
+\
+MR-ticket:\
+1. make sure put the personal branch name as title.\
+2. include JIRA ticket in the ticket\
+\
+\
+\
+$scope.savePNG = function () \{\
+        html2canvas(document.getElementById('line-item-wrapper'), \{\
+            logging: true,\
+            useCORS: true,\
+            allowTaint: false,\
+            onrendered: function (canvas) \{\
+                img = canvas.toDataURL('img/png');\
+                console.log(img);\
+                window.location.href = img;\
+            \}\
+        \});\
+    \};\
+\
+\
+\
+\
+\
+\pard\pardeftab720
+
+\f2\b\fs20 \cf3 \cb4 raymond.chan@turn.com\
+\pard\pardeftab720
+
+\b0\fs18 \cf5 12:59\
+\pard\pardeftab720
+
+\fs24 \cf0 \kerning1\expnd-8\expndtw-40
+\
+\pard\pardeftab720
+
+\fs20 \cf3 \kerning1\expnd0\expndtw0 oh\
+\pard\pardeftab720
+
+\fs18 \cf5 1:00\
+\pard\pardeftab720
+
+\fs24 \cf0 \kerning1\expnd-8\expndtw-40
+\
+\pard\pardeftab720
+
+\fs20 \cf3 \kerning1\expnd0\expndtw0 you need to make symbolic links from turn/htdocs/WEB-INF/quest/static to the following 4 folders\
+\pard\pardeftab720
+
+\fs18 \cf5 1:00\
+\pard\pardeftab720
+
+\fs24 \cf0 \kerning1\expnd-8\expndtw-40
+\
+\
+\pard\pardeftab720
+
+\fs20 \cf3 \kerning1\expnd0\expndtw0 scripts -> quest/test/build/scripts\
+\
+\
+\
+\pard\pardeftab720
+
+\f1\fs22 \cf0 \cb1 \
+\
+sorting algorithm\
+\
+input: array [] \
+\
+output: sorted array\
+\
+quicksort(array,0,array.length-1);\
+\
+ function quickSort(int left, int right)\{\
+ int pivot=array[array.length-1];// right most element\
+ \
+ int partition =partitionInit(left,right,pivot);\
+ \
+ quickSort(left,partition-1);\
+ quickSort(partition+1,right);\
+ \
+ \
+ \}\
+\
+int paritionInit(int left, int right, int upperbound )\{\
+    int leftptr=left;\
+    int rightptr=right;\
+    while(true)\{\
+        while(array[leftptr++]<upperbound)\
+        ;\
+        //nop\
+        while(array[rightptr--]>upperbound)\
+        ;\
+        //nop\
+        if(leftptr>=rightptr)\
+            break;\
+        else\
+            swap(leftptr,rightptr);\
+        \
+    \}\
+    swap(leftptr,right);\
+    return leftptr;\
+\}\
+\
+swap(int index1, int index2 )\{\
+\
+\}\
+\
+\
+\
+Given: A random array[]\
+Output: 2nd largest number in the array? (can you do it in one pass)?\
+\
+function int getTheSecondHighestElement(int []randomArray)\{\
+\
+int max=-1;\
+int secondmax=-1;\
+for(int i=0;i<randomArray.length;i++)\{\
+     if(i==0)\{\
+         max=randomArray[i];\
+ \
+     \}\
+    else if(randomArray[i]>max)\{\
+         secondmax=max;\
+         max=randomArray[i];\
+         \
+    \}\
+\}\
+return secondmax;\
+\}\
+\
+\
+0207\
+\
+\
+\
+sorting algorithms\
+\
+input: array\
+output: sorted array\
+\
+\
+public void arrSort(int[] a)\{\
+\
+int len = a.length();\
+\
+for(int i = 0; i < len; i++) \{\
+\
+int min = i;\
+\
+for(int j = i+1; j<len; j++) \{\
+\
+if(a[j] < a[min])\
+min =j ;\
+int temp = a[min];\
+a[min] = a[j];\
+a[j] = temp;\
+\
+\}\
+\}\
+\
+public void mergSort(int[] a, int lo, int mid, int hi) \{\
+\
+int i = lo;\
+int j = mid+1;\
+int b[];\
+\
+for(int k = lo; k<hi;k++) \{\
+\
+b[k] = a[k];\
+\
+for(int z = lo; z< hi; z++)\
+\
+if(i > mid) a[z] = b[j++];\
+\
+else if (j > hi) a[z] = b[i++];\
+else if(a[j] < a[i]) a[z] = b[j++];\
+\
+else a[z] = b[i++];\
+\
+\
+\
+\}\
+\
+example: input: 10,      output: [2, 3, 5, 7]\
+\
+public static void primeNumber(int N) \{\
+\
+for(int i = 2; i < N; i++)\{\
+boolean flag = false;\
+if(i%2 == 0) \{\
+System.out.pritn("not prime")\
+else\
+System.out.println("This is prime:" + i);\
+// 3,5,7,9\
+\
+for(int j = 2; j < ; j++) \{\
+//9\
+if(i%j == 0) \{\
+\
+flag = true;\
+\}\
+\}\
+\
+if(flag == false)\
+\{\
+System.out.println("Prime number:" + );\
+\}\
+\
+public v\
+// 9 & 10 \
+\
+//2, 3, 4, 5, \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\}\
+\
+\
+\
+prime number:\
+\
+input: number n\
+output: all prime numbers less than n\
+\
+\
+\
+\
+sorting algorithms\
+\
+input: array\
+output: sorted array\
+\
+\
+public void arrSort(int[] a)\{\
+\
+int len = a.length();\
+\
+for(int i = 0; i < len; i++) \{\
+\
+int min = i;\
+\
+for(int j = i+1; j<len; j++) \{\
+\
+if(a[j] < a[min])\
+min =j ;\
+int temp = a[min];\
+a[min] = a[j];\
+a[j] = temp;\
+\
+\}\
+\}\
+\
+public void mergSort(int[] a, int lo, int mid, int hi) \{\
+\
+int i = lo;\
+int j = mid+1;\
+int b[];\
+\
+for(int k = lo; k<hi;k++) \{\
+\
+b[k] = a[k];\
+\
+for(int z = lo; z< hi; z++)\
+\
+if(i > mid) a[z] = b[j++];\
+\
+else if (j > hi) a[z] = b[i++];\
+else if(a[j] < a[i]) a[z] = b[j++];\
+\
+else a[z] = b[i++];\
+\
+\
+\
+\}\
+\
+example: input: 10,      output: [2, 3, 5, 7]\
+\
+public static void primeNumber(int N) \{\
+\
+for(int i = 2; i < N; i++)\{\
+boolean flag = false;\
+if(i%2 == 0) \{\
+\
+\
+if( euclTheo() == 1) \{\
+System.out.println("This is prime:" + i);\
+\}\
+\
+public static void euclTheo(int a, int b) \{\
+\
+if ( b == 0 ) return a;\
+\
+int r = a%b;\
+\
+return euclTheo(b,r);\
+// 9 & 10 \
+\
+//2, 3, 4, 5, \
+\
+\
+Input: array of random number\
+Return: 2nd largest number in that array (do it in one pass)\
+\
+\
+\
+public static void sortOnePass(int [] a) \{\
+\
+int largest = 0;\
+int second = 0;\
+for(int i = 0; i < len; i++)\
+\
+\{\
+\
+if(a[i] > largest) \{\
+\
+second = largest;\
+largest = i;\
+    \
+\}\
+\
+else if(a[i] > second) \{\
+\
+second = a[i];\
+\
+\}\
+\
+\
+\
+System.out.println(a[len - 2]);\
+\
+\
+\
+\}\
+\
+\
+\
+prime number:\
+\
+input: number n\
+output: all prime numbers less than n\
+\
+\
+\
+\
+ReportCenterHomePage.UserList: raymond.chan@turn.com,xyang,roy.cao@turn.com,arjun.satish@turn.com,arun.kandregula@turn.com,bhavin.shah@turn.com,bin.song@turn.com,changgull.song@turn.com,david.rubin@turn.com,donald.hanle@turn.com,doug.smith@turn.com,glen.ames@turn.com,karan.bonda@turn.com,khaled.elmeleegy@turn.com,krishna.prasad@turn.com,raymond.chan@turn.com,santanu.kolay@turn.com,sherman.luk@turn.com,sriharsha.gangam@turn.com,xi.yang@turn.com,rkeller,galit.rozenovich,efleischli,katherine.roney,mike.sneddon,sarah.cometa,ken.altmann,elizabeth.brown,bill.yancey,tanya.ford,nish.sheth,bruce.volpe,neil.shah,benu.shroff,alka.mehta,ayanna.sawyer,dipti.desai,glen.ames,ethan.lubka,doug.smith,krishna.prasad,faria.hassan,maz.sattari,joshua.koran,prasanth.padmanabhan,steve.markovich,andy.schaub,jade.falcon,RoyTest\
+\
+\
+\
+\pard\pardeftab720
+
+\f3\fs28 \cf0 application engineer 
+\f4 \'89\'ba\'96\'ca\'93\'49
+\f3 Software Applications.\
+engineering
+\f4 \'89\'ba\'96\'ca\'93\'49
+\f3 Software Engineers, Server Development\
+platform
+\f4 \'89\'ba\'96\'ca\'93\'49
+\f3 Software Engineers, Data & Software Engineer, Distributed System\
+\
+\
+\
+\
+\
+\pard\pardeftab720
+
+\f1\fs22 \cf6 /**\cf0 \
+\cf6 	 * Get current advertiser's currency id\cf0 \
+\cf6 	 * \cf0 \
+\cf6 	 * \cf7 @param\cf6  advertiserId		current advertiserId\cf0 \
+\cf6 	 * \cf7 @return\cf6  currencyId\cf0 \
+\cf6 	 */\cf0 \
+	\cf8 protected\cf0  \cf8 long\cf0  getCurrencyId(\cf8 long\cf0  advertiserId) \{\
+		List<Long> ad_ids = \cf8 new\cf0  ArrayList<Long>();\
+		ad_ids.add(advertiserId);\
+		Map<Long, AdvertiserSummary> adSummary = \cf9 _advertiserSummaryService\cf0 .getByAdvertiserIds(ad_ids);\
+		\cf8 if\cf0  (adSummary.isEmpty() || (adSummary.get(advertiserId) == \cf8 null\cf0 )) \{\
+			\cf8 return\cf0  -1;\
+		\} \cf8 else\cf0  \{\
+			AdvertiserSummary curAdSummary = adSummary.get(advertiserId);\
+			\cf8 return\cf0  curAdSummary.getLocalCurrencyId();\
+		\}\
+	\}\
+\
+\
+\
+41de165 HEAD@\{3\}: checkout: moving from feature/report-center-geo to feature/segment-lifecycle\
+41de165 HEAD@\{8\}:\
+\
+be\
+\
+string converter\
+\pard\pardeftab720
+{\field{\*\fldinst{HYPERLINK "http://www.freeformatter.com/javascript-escape.html#ad-output"}}{\fldrslt \cf0 http://www.freeformatter.com/javascript-escape.html#ad-output}}\
+\
+\
+\
+Chunzhao's fix:\
+stash 
+\f5\fs24 #1526\
+\
+\
+\
+\pard\pardeftab720
+
+\f2\fs20 \cf3 \cb10 report-center-refactoring-latest\
+\pard\pardeftab720
+
+\f1\fs22 \cf0 \cb1 \
+\
+bean factory ----> data-content.xml\
+\
+content = $scope.listOfCampaignObjectNames[0].value;\
+\
+\
+\
+\
+var turnModule = require('../turn.js');\
+turnModule.directive('otherChart', function () \{\
+\
+    return \{\
+        restrict: 'A',\
+        link: function (scope, element) \{\
+\
+            var domChart = angular.element('#unique-user-wrapper').html(),\
+                domParser = new DOMParser();\
+		    \
+		    var newDoc = domParser.parseFromString(domChart, 'text/xml');\
+		    //debugger;\
+            var closeButton = newDoc.getElementsByClassName('btn-group pull-right hover-btn-container');\
+            //debugger;\
+            closeButton.parentNode.removeChild(closeButton);\
+\
+            element.html(serializer.serializeToString(newDoc));\
+\
+        \}\
+    \};\
+\});\
+\
+\
+\
+Show IO legend in IO png preview page\
+    \
+    Jira: RC-1871\
+    Reviewed-by: Raymond Chan <raymond.chan@turn.com>\
+    Signed-off-by: Roy Cao <roy.cao@turn.com>}
